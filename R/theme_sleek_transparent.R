@@ -22,7 +22,7 @@
 #'
 #' @export
 
-theme_sleek <- function(base_size = 11, base_family = "") {
+theme_sleek_transparent <- function(base_size = 11, base_family = "") {
   half_line <- base_size/2
   theme_light(base_size = base_size, base_family = base_family) +
     theme(
